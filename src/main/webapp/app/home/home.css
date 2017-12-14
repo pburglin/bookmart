@@ -4,9 +4,9 @@ Main page styles
 
 .hipster {
     display: inline-block;
-    width: 347px;
-    height: 497px;
-    background: url("../../content/images/hipster.png") no-repeat center top;
+    width: 640px;
+    height: 220px;
+    background: url("../../content/images/bookmart.png") no-repeat center top;
     background-size: contain;
 }
 
@@ -23,4 +23,3 @@ only screen and (                min-resolution: 2dppx) {
         background-size: contain;
     }
 }
-

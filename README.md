@@ -1,4 +1,6 @@
-# bookmart
+# Bookmart
+Sample JHipster app used in [AWS101](https://github.com/pburglin/aws101) course
+
 This application was generated using JHipster 4.12.0, you can find documentation and help at [http://www.jhipster.tech/documentation-archive/v4.12.0](http://www.jhipster.tech/documentation-archive/v4.12.0).
 
 ## Development
