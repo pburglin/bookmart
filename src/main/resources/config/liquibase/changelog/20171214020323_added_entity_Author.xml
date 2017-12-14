@@ -28,7 +28,18 @@
 
             <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here, do not remove-->
         </createTable>
-        
+
     </changeSet>
+
+    <changeSet context="test" id="20171214020323-2" author="pburglin">
+
+      <loadData encoding="UTF-8"
+                file="config/liquibase/authors.csv"
+                separator=";"
+                tableName="author">
+      </loadData>
+
+    </changeSet>
+
     <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here, do not remove-->
 </databaseChangeLog>
