@@ -34,7 +34,10 @@ export class BookDialogComponent implements OnInit {
 
     ngOnInit() {
         this.isSaving = false;
-        this.authorService.query()
+        this.authorService.query({
+            size: 9999,
+            sort: ['name']
+        })
             .subscribe((res: ResponseWrapper) => { this.authors = res.json; }, (res: ResponseWrapper) => this.onError(res.json));
     }
 
